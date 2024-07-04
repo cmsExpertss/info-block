@@ -5,7 +5,7 @@
  * Description:       Notifications Block (Info, Tip, Warning, Error)
  * Requires at least: 6.3.0
  * Requires PHP:      7.4
- * Version:           0.0.1
+ * Version:           1.3
  * Author:            admin
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -22,7 +22,7 @@ $plugin_prefix = 'INFOBLOCK';
 define($plugin_prefix . '_DIR', plugin_basename(__DIR__));
 define($plugin_prefix . '_BASE', plugin_basename(__FILE__));
 define($plugin_prefix . '_PATH', plugin_dir_path(__FILE__));
-define($plugin_prefix . '_VER', '0.0.1');
+define($plugin_prefix . '_VER', '1.3');
 define($plugin_prefix . '_CACHE_KEY', 'info_block-cache-key-for-plugin');
 define($plugin_prefix . '_REMOTE_URL', 'https://local-dplugins.local/wp-content/uploads/downloads/25/info.json');
 
